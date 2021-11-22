@@ -1,0 +1,7 @@
+@echo off
+
+echo Mapping O Drive...
+net use o: \\gisfs1\gis_share
+
+@echo Success!
+@pause
